@@ -57,12 +57,12 @@ var projects = {
 			"demo": "http://hitwater.github.io//Udacity-P3-Arcade-Game/"
 		},
 		{
-			"title": "Resume",
+			"title": "Restaurant Website",
 			"date worked": "April, 2016",
-			"description": "Resume project for Udacity Front-end Web Development Nanodegree",
+			"description": "An interactive web system with AngularJS, Node.js, Express.js, and MongoDB which allows users to register and login into the restaurant website, search dishes’ menu, and write review for dishes. ",
 			"image": "http://hitwater.github.io/images/3.jpg",
-			"github": "https://github.com/hitwater/Udacity-P2-Resume",
-			"demo": "http://hitwater.github.io//Udacity-P2-Resume/"
+			"github": "https://github.com/hitwater/coursera-full-stack-web-development",
+			
 		},
 		{
 			"title": "Car Dealership Managment",
