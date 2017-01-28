@@ -65,28 +65,26 @@ var projects = {
 			"demo": "http://hitwater.github.io//Udacity-P2-Resume/"
 		},
 		{
-			"title": "Website Optimization",
-			"date worked": "April, 2016",
-			"description": "Website and browse optimization projecet for Udacity Front-end Web Development Nanodegree",
+			"title": "Car Dealership Managment",
+			"date worked": "December, 2016",
+			"description": "A Dealership Management system in Java to help customers and employees to finish the transactions.",
 			"image": "http://hitwater.github.io/images/4.jpg",
-			"github": "https://github.com/hitwater/Udacity-P4-Website-Optimization",
-			"demo": "http://hitwater.github.io//Udacity-P4-Website-Optimization/"
+			"github": "https://github.com/hitwater/Car-Dealership-Managment-Software",
+		
 		},
 		{
-			"title": "Feed Reader Testing",
+			"title": "Simulate of Ethernet",
 			"date worked": "March, 2016",
-			"description": "Feed Reader Testing projecet for Udacity Front-end Web Development Nanodegree",
+			"description": "Implemented TCP sockets and develop C program to simulate of an Ethernet with UNIX processes",
 			"image": "http://hitwater.github.io/images/5.jpg",
-			"github": "https://github.com/hitwater/Udacity-P6-Feed-Reader-Testing",
-			"demo": "http://hitwater.github.io//Udacity-P6-Feed-Reader-Testing"
+			"github": "https://github.com/hitwater/Simulation_of_Ethernet",
 		},
 		{
-			"title": "Portofolio",
+			"title": "Rental Books Website",
 			"date worked": "March, 2016",
-			"description": "Portofolio for Udacity Front-end Web Development Nanodegree",			
+			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
 			"image": "http://hitwater.github.io/images/6.jpg",
-			"github": "https://github.com/hitwater/Udacity-P1-Portfolio",
-			"demo": "http://hitwater.github.io//Udacity-P1-Portfolio"
+			"github": "https://github.com/hitwater/Rental_Books",
 		}
 	]
 
