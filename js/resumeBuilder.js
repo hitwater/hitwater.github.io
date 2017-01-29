@@ -130,7 +130,7 @@ var bio = {
         "location": "Austin"
     },
 	"welcome message": "I'm passionate about web design and web development and highly self-motivated and goal-oriented professional committed to pursuing a long-term career in software engineer. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 2+ years of hands on experience with HTML, CSS, JavaScript, MEAN stack, Python. Familiar with software development life cycle. Feel free to check out my Github repositories and demo projects. You can also find me on Linkedin and Twitter.",
-    "skills": ["Java","C++","Python", "SQL", "Linux", "HTML5", "CSS", "Javascript", "JQuery","Bootstrap","Knockout.js","Express.js","MongoDB","Angular.JS","Node.js"],
+    "skills": ["Java","C++","Python", "SQL", "Javascript",  "HTML5", "CSS", "JQuery","Bootstrap","Knockout.js","Express.js","MongoDB","Angular.JS","Node.js","Linux", "Eclipse", "Sublime", "Git", "MATLAB"],
     "bio pic": "images/fry.jpg"	
 };
 bio.display = function(){
