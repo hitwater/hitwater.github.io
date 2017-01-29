@@ -90,10 +90,11 @@ var projects = {
 			"demo": "http://hitwater.github.io/Udacity-P6-Feed-Reader-Testing/"
 		},
 		{
-			"title": "Library_Management_System",
-			"date worked": "December, 2015",
-			"description": "Write Java code to create a library Management System",
-			"github": "https://github.com/hitwater/Library_Management_System",
+			"title": "Texas-State-Online-Bookstore",
+			"date worked": "December, 2016",
+			"description": "Create an online Bookstore with Angular.JS and Google Firebase.",
+			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
+			"video": "https://youtu.be/Uvjf8GSykW8"
 		},
 		{
 			"title": "Simulate of Ethernet",
