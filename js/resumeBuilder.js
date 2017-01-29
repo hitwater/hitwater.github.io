@@ -70,6 +70,8 @@ var projects = {
 			"description": "A Dealership Management system in Java to help customers and employees to finish the transactions.",
 			"image": "http://hitwater.github.io/images/4.jpg",
 			"github": "https://github.com/hitwater/Car-Dealership-Managment-Software",
+			"video": "https://youtu.be/5AmEeVsn9jU"
+			
 		
 		},
 		{
@@ -85,6 +87,7 @@ var projects = {
 			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
 			"image": "http://hitwater.github.io/images/6.jpg",
 			"github": "https://github.com/hitwater/Rental_Books",
+			"video": "https://youtu.be/PPM8KJhob9A"
 		}
 	]
 
