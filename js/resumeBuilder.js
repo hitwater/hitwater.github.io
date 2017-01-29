@@ -58,17 +58,13 @@ var projects = {
 			"title": "Car Dealership Managment",
 			"date worked": "December, 2016",
 			"description": "A Dealership Management system in Java to help customers and employees to finish the transactions.",
-			"image": "http://hitwater.github.io/images/4.jpg",
 			"github": "https://github.com/hitwater/Car-Dealership-Managment-Software",
 			"demo": "https://youtu.be/5AmEeVsn9jU"
-			
-		
 		},
 		{
 			"title": "Rental Books Website",
 			"date worked": "March, 2016",
 			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
-			"image": "http://hitwater.github.io/images/6.jpg",
 			"github": "https://github.com/hitwater/Rental_Books",
 			"demo": "https://youtu.be/PPM8KJhob9A"
 		},
@@ -85,6 +81,19 @@ var projects = {
 			"description": "Use Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
 			"github": "https://github.com/hitwater/Python-Interactive-Game",
 			"demo": "https://youtu.be/i5w6WTa5uVU"
+		},		
+		{
+			"title": "Udacity-P6-Feed-Reader-Testing",
+			"date worked": "April, 2016",
+			"description": "This is a Jasmine test for a given web-based application that reads RSS feeds.",
+			"github": "https://github.com/hitwater/Udacity-P6-Feed-Reader-Testing",
+			"demo": "http://hitwater.github.io/Udacity-P6-Feed-Reader-Testing/"
+		},
+		{
+			"title": "Library_Management_System",
+			"date worked": "December, 2015",
+			"description": "Write Java code to create a library Management System",
+			"github": "https://github.com/hitwater/Library_Management_System",
 		},
 		{
 			"title": "Simulate of Ethernet",
@@ -92,7 +101,8 @@ var projects = {
 			"description": "Implemented TCP sockets and develop C program to simulate of an Ethernet with UNIX processes",
 			"image": "http://hitwater.github.io/images/5.jpg",
 			"github": "https://github.com/hitwater/Simulation_of_Ethernet",
-		}
+		},
+		
 
 	]
 
