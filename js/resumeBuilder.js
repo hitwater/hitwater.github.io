@@ -189,12 +189,12 @@ var education = {
         "title": "NanoDegree",
         "school": "Udacity",
         "dates": "02.01.2016",
-        "url": "https://www.udacity.com/"
+        "url": "https://www.udacity.com"
     },{
         "title": "Full Stack Web Development",
         "school": "Coursera",
         "dates": "10.01.2016",
-        "url": "https://www.coursera.org/"
+        "url": "https://www.coursera.org"
     }
     ]
 };
