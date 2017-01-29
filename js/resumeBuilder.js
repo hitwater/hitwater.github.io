@@ -168,7 +168,7 @@ var education = {
         "location": "San Marcos",
         "degree": "Master degree",
         "majors": ["Software Engineering"],
-        "expected dates": "12-10-2017",
+        "dates": "12-10-2017",
         "url": "http://www.txstate.edu/"
     },{
         "name": "Texas A&M University",
@@ -189,12 +189,12 @@ var education = {
         "title": "NanoDegree",
         "school": "Udacity",
         "dates": "02.01.2016",
-        "url": "https://www.udacity.com"
+        "url": "https://www.udacity.com/"
     },{
         "title": "Full Stack Web Development",
         "school": "Coursera",
         "dates": "10.01.2016",
-        "url": "https://www.coursera.org"
+        "url": "https://www.coursera.org/"
     }
     ]
 };
