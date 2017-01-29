@@ -2,25 +2,25 @@
 //Work JSON 
 var work = {
     "jobs": [{
-        "employer": "BOA Marine Services Inc.",
-        "title": "Marine Engineer",
-        "location": "Houston",
-        "dates": "Dec. 2013-Mar. 2015",
-        "description": "As a marine engineer, I was focusing on devloping GUI tools and spreadsheet."
+        "employer": "Texas State University",
+        "title": "Graduate Assistant",
+        "location": "San Marcos",
+        "dates": "May 2016-Present",
+        "description": "My current study is focusing on web development, object oriented programming and software testing. "
     },
     {
         "employer": "BOA Marine Services Inc.",
-        "title": "Marine Engineer Intern",
+        "title": "Marine Engineer",
         "location": "Houston",
         "dates": "May. 2013-Aug. 2013",
-        "description": "As a marine engineer, I was focusing on devloping GUI tools and spreadsheet."
+        "description": "As a engineer, I was focusing on devloping JavaScript,Python, and VB scripting code."
     },  
     {
-        "employer": "TAMU",
-        "title": "Teaching Assistant",
+        "employer": "Texas A&M University ",
+        "title": "Lab Assistant",
         "location": "College Station",
         "dates": "Aug. 2011-May 2012",
-        "description": "Help undergraduate students to slove homework related problems and grade homework and quiz."
+        "description": "Create MATLAB code to investigated the coupling between vibration and acoustic of solid plate and membrane."
     }]
 	
 };
@@ -44,7 +44,6 @@ var projects = {
 			"title": "Neighborhood Map",
 			"date worked": "May, 2016",
 			"description": "Neighborhood Map project for Udacity Front-end Web Development Nanodegree",
-			"image": "http://hitwater.github.io/images/1.jpg",
 			"github": "https://github.com/hitwater/Udacity-P5-Neighborhoodmap",
 			"demo": "http://hitwater.github.io//Udacity-P5-Neighborhoodmap/",
 		},
@@ -52,15 +51,20 @@ var projects = {
 			"title": "Arcade Game",
 			"date worked": "April, 2016",
 			"description": "Classic arcade game clone project for Udacity Front-end Web Development Nanodegree",
-			"image": "http://hitwater.github.io/images/2.jpg",
-			"github": "https://github.com/hitwater/Udacity-P3-Arcade-Game",
+			"github": "https://github.com/hitwater/Python-Interactive-Game",
 			"demo": "http://hitwater.github.io//Udacity-P3-Arcade-Game/"
+		},
+		{
+			"title": "Python Interactive Game",
+			"date worked": "December, 2015",
+			"description": "Use Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
+			"github": "https://github.com/hitwater/Python-Interactive-Game",
+			"demo": "https://youtu.be/i5w6WTa5uVU"
 		},
 		{
 			"title": "Restaurant Website",
 			"date worked": "April, 2016",
 			"description": "An interactive web system with AngularJS, Node.js, Express.js, and MongoDB which allows users to register and login into the restaurant website, search dishes’ menu, and write review for dishes. ",
-			"image": "http://hitwater.github.io/images/3.jpg",
 			"github": "https://github.com/hitwater/coursera-full-stack-web-development",
 			
 		},
@@ -186,7 +190,13 @@ var education = {
         "school": "Udacity",
         "dates": "02.01.2016",
         "url": "https://www.udacity.com/"
-    }]
+    },{
+        "title": "Full Stack Web Development",
+        "school": "Coursera",
+        "dates": "10.01.2016",
+        "url": "https://www.coursera.org/"
+    }
+    ]
 };
 // Display education json info
 education.display = function(){
