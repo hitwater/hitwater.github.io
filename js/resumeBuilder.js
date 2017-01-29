@@ -48,20 +48,6 @@ var projects = {
 			"demo": "http://hitwater.github.io//Udacity-P5-Neighborhoodmap/",
 		},
 		{
-			"title": "Arcade Game",
-			"date worked": "April, 2016",
-			"description": "Classic arcade game clone project for Udacity Front-end Web Development Nanodegree",
-			"github": "https://github.com/hitwater/Udacity-P3-Arcade-Game",
-			"demo": "http://hitwater.github.io//Udacity-P3-Arcade-Game/"
-		},
-		{
-			"title": "Python Interactive Game",
-			"date worked": "December, 2015",
-			"description": "Use Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
-			"github": "https://github.com/hitwater/Python-Interactive-Game",
-			"demo": "https://youtu.be/i5w6WTa5uVU"
-		},
-		{
 			"title": "Restaurant Website",
 			"date worked": "April, 2016",
 			"description": "An interactive web system with AngularJS, Node.js, Express.js, and MongoDB which allows users to register and login into the restaurant website, search dishes’ menu, and write review for dishes. ",
@@ -79,20 +65,35 @@ var projects = {
 		
 		},
 		{
-			"title": "Simulate of Ethernet",
-			"date worked": "March, 2016",
-			"description": "Implemented TCP sockets and develop C program to simulate of an Ethernet with UNIX processes",
-			"image": "http://hitwater.github.io/images/5.jpg",
-			"github": "https://github.com/hitwater/Simulation_of_Ethernet",
-		},
-		{
 			"title": "Rental Books Website",
 			"date worked": "March, 2016",
 			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
 			"image": "http://hitwater.github.io/images/6.jpg",
 			"github": "https://github.com/hitwater/Rental_Books",
 			"demo": "https://youtu.be/PPM8KJhob9A"
+		},
+		{
+			"title": "Arcade Game",
+			"date worked": "April, 2016",
+			"description": "Classic arcade game clone project for Udacity Front-end Web Development Nanodegree",
+			"github": "https://github.com/hitwater/Udacity-P3-Arcade-Game",
+			"demo": "http://hitwater.github.io//Udacity-P3-Arcade-Game/"
+		},
+		{
+			"title": "Python Interactive Game",
+			"date worked": "December, 2015",
+			"description": "Use Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
+			"github": "https://github.com/hitwater/Python-Interactive-Game",
+			"demo": "https://youtu.be/i5w6WTa5uVU"
+		},
+		{
+			"title": "Simulate of Ethernet",
+			"date worked": "March, 2016",
+			"description": "Implemented TCP sockets and develop C program to simulate of an Ethernet with UNIX processes",
+			"image": "http://hitwater.github.io/images/5.jpg",
+			"github": "https://github.com/hitwater/Simulation_of_Ethernet",
 		}
+
 	]
 
 };
@@ -129,7 +130,7 @@ var bio = {
         "location": "Austin"
     },
 	"welcome message": "I'm passionate about web design and web development and highly self-motivated and goal-oriented professional committed to pursuing a long-term career in software engineer. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 2+ years of hands on experience with HTML, CSS, JavaScript, MEAN stack, Python. Familiar with software development life cycle. Feel free to check out my Github repositories and demo projects. You can also find me on Linkedin and Twitter.",
-    "skills": ["HTML5", "CSS", "Javascript", "JQuery","Bootstrap","Knockout.js","Express.js","MongoDB","Angular.JS","Node.js"],
+    "skills": ["Java","C++","Python", "SQL", "Linux", "HTML5", "CSS", "Javascript", "JQuery","Bootstrap","Knockout.js","Express.js","MongoDB","Angular.JS","Node.js"],
     "bio pic": "images/fry.jpg"	
 };
 bio.display = function(){
