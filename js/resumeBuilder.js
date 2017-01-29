@@ -94,7 +94,7 @@ var projects = {
 			"date worked": "December, 2016",
 			"description": "Create an online Bookstore with Angular.JS and Google Firebase.",
 			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
-			"video": "https://youtu.be/Uvjf8GSykW8"
+			"demo": "https://youtu.be/Uvjf8GSykW8"
 		},
 		{
 			"title": "Simulate of Ethernet",
