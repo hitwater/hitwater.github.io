@@ -50,7 +50,7 @@ var projects = {
 		{
 			"title": "Restaurant Website",
 			"date worked": "April, 2016",
-			"description": "An interactive web system with AngularJS, Node.js, Express.js, and MongoDB which allows users to register and login into the restaurant website, search dishes’ menu, and write review for dishes. ",
+			"description": "An interactive website with AngularJS, Node.js, Express.js, and MongoDB.",
 			"github": "https://github.com/hitwater/coursera-full-stack-web-development",
 			
 		},
