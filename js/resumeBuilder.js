@@ -51,7 +51,7 @@ var projects = {
 			"title": "Arcade Game",
 			"date worked": "April, 2016",
 			"description": "Classic arcade game clone project for Udacity Front-end Web Development Nanodegree",
-			"github": "https://github.com/hitwater/Python-Interactive-Game",
+			"github": "https://github.com/hitwater/Udacity-P3-Arcade-Game",
 			"demo": "http://hitwater.github.io//Udacity-P3-Arcade-Game/"
 		},
 		{
