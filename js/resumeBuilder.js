@@ -53,7 +53,7 @@ var projects = {
 			"date worked": "April, 2016",
 			"description": "An interactive website with AngularJS, Node.js, Express.js, and MongoDB.",
 			"github": "https://github.com/hitwater/coursera-full-stack-web-development",
-			"progress": 100
+			"progress": 80
 			
 		},
 		{
@@ -70,7 +70,7 @@ var projects = {
 			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
 			"github": "https://github.com/hitwater/Rental_Books",
 			"video": "https://youtu.be/PPM8KJhob9A",
-			"progress": 100
+			"progress": 90
 		},
 		{
 			"title": "Arcade Game",
@@ -102,7 +102,7 @@ var projects = {
 			"description": "Create an online Bookstore with Angular.JS and Google Firebase.",
 			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
 			"video": "https://youtu.be/Uvjf8GSykW8",
-			"progress": 100
+			"progress": 80
 		},
 		{
 			"title": "Simulate of Ethernet",
