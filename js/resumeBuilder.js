@@ -46,12 +46,14 @@ var projects = {
 			"description": "Neighborhood Map project for Udacity Front-end Web Development Nanodegree",
 			"github": "https://github.com/hitwater/Udacity-P5-Neighborhoodmap",
 			"demo": "http://hitwater.github.io//Udacity-P5-Neighborhoodmap/",
+			"progress": 100
 		},
 		{
 			"title": "Restaurant Website",
 			"date worked": "April, 2016",
 			"description": "An interactive website with AngularJS, Node.js, Express.js, and MongoDB.",
 			"github": "https://github.com/hitwater/coursera-full-stack-web-development",
+			"progress": 100
 			
 		},
 		{
@@ -59,42 +61,48 @@ var projects = {
 			"date worked": "December, 2016",
 			"description": "A Dealership Management system in Java to help customers and employees to finish the transactions.",
 			"github": "https://github.com/hitwater/Car-Dealership-Managment-Software",
-			"video": "https://youtu.be/5AmEeVsn9jU"
+			"video": "https://youtu.be/5AmEeVsn9jU",
+			"progress": 100
 		},
 		{
 			"title": "Rental Books Website",
 			"date worked": "March, 2016",
 			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
 			"github": "https://github.com/hitwater/Rental_Books",
-			"video": "https://youtu.be/PPM8KJhob9A"
+			"video": "https://youtu.be/PPM8KJhob9A",
+			"progress": 100
 		},
 		{
 			"title": "Arcade Game",
 			"date worked": "April, 2016",
 			"description": "Classic arcade game clone project for Udacity Front-end Web Development Nanodegree",
 			"github": "https://github.com/hitwater/Udacity-P3-Arcade-Game",
-			"demo": "http://hitwater.github.io//Udacity-P3-Arcade-Game/"
+			"demo": "http://hitwater.github.io//Udacity-P3-Arcade-Game/",
+			"progress": 100
 		},
 		{
 			"title": "Python Interactive Game",
 			"date worked": "December, 2015",
 			"description": "Use Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
 			"github": "https://github.com/hitwater/Python-Interactive-Game",
-			"video": "https://youtu.be/i5w6WTa5uVU"
+			"video": "https://youtu.be/i5w6WTa5uVU",
+			"progress": 100
 		},		
 		{
 			"title": "Udacity-P6-Feed-Reader-Testing",
 			"date worked": "April, 2016",
 			"description": "This is a Jasmine test for a given web-based application that reads RSS feeds.",
 			"github": "https://github.com/hitwater/Udacity-P6-Feed-Reader-Testing",
-			"demo": "http://hitwater.github.io/Udacity-P6-Feed-Reader-Testing/"
+			"demo": "http://hitwater.github.io/Udacity-P6-Feed-Reader-Testing/",
+			"progress": 100
 		},
 		{
 			"title": "Texas-State-Online-Bookstore",
 			"date worked": "December, 2016",
 			"description": "Create an online Bookstore with Angular.JS and Google Firebase.",
 			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
-			"video": "https://youtu.be/Uvjf8GSykW8"
+			"video": "https://youtu.be/Uvjf8GSykW8",
+			"progress": 100
 		},
 		{
 			"title": "Simulate of Ethernet",
@@ -102,6 +110,7 @@ var projects = {
 			"description": "Implemented TCP sockets and develop C program to simulate of an Ethernet with UNIX processes",
 			"image": "http://hitwater.github.io/images/5.jpg",
 			"github": "https://github.com/hitwater/Simulation_of_Ethernet",
+			"progress": 100
 		},
 		
 
