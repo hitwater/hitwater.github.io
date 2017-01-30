@@ -34,11 +34,6 @@ var HTMLschoolDates = "<div class='entry-date'>%data%</span>";
 var HTMLschoolLocation = "<span class='entry-location'> - %data%</div>";
 var HTMLschoolMajor = "<div><em>%data%</em></div>"
 
-var HTMLonlineClasses = "<h3><span class='glyphicon glyphicon-headphones'></span>Online Classes</h3>";
-var HTMLonlineTitle = "<div><em>%data%</em></div>";
-var HTMLonlineSchool = "<span class='entry-name'>%data%</span>";
-var HTMLonlineDates = "<div class='entry-date'>%data%</div>";
-var HTMLonlineURL = "<a href='#'>%data%</a>";
 
 var internationalizeButton = "<button>Internationalize</button>";
 var googleMap = "<div id='map'></div>";
