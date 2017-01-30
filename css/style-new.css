@@ -21,7 +21,7 @@ span {
 }
 
 .header-info h1{
-  font-size: 160px;
+  font-size: 60px;
   line-height:0.9;
   margin:0;
   display:inline;
@@ -41,7 +41,7 @@ span {
   padding: 5px 10px;
 }
 .first-name{
-  font-weight:700;
+  font-weight:300;
 }
 .last-name{
   font-weight:300;
