@@ -61,7 +61,7 @@ var projects = {
 			"date worked": "December, 2016",
 			"description": "A Dealership Management system in Java to help customers and employees to finish the transactions.",
 			"github": "https://github.com/hitwater/Car-Dealership-Managment-Software",
-			"video": "https://youtu.be/5AmEeVsn9jU",
+			"demo": "https://youtu.be/5AmEeVsn9jU",
 			"progress": 100
 		},
 		{
@@ -69,7 +69,7 @@ var projects = {
 			"date worked": "March, 2016",
 			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
 			"github": "https://github.com/hitwater/Rental_Books",
-			"video": "https://youtu.be/PPM8KJhob9A",
+			"demo": "https://youtu.be/PPM8KJhob9A",
 			"progress": 90
 		},
 		{
@@ -85,7 +85,7 @@ var projects = {
 			"date worked": "December, 2015",
 			"description": "Use Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
 			"github": "https://github.com/hitwater/Python-Interactive-Game",
-			"video": "https://youtu.be/i5w6WTa5uVU",
+			"demo": "https://youtu.be/i5w6WTa5uVU",
 			"progress": 100
 		},		
 		{
@@ -101,14 +101,13 @@ var projects = {
 			"date worked": "December, 2016",
 			"description": "Create an online Bookstore with Angular.JS and Google Firebase.",
 			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
-			"video": "https://youtu.be/Uvjf8GSykW8",
+			"demo": "https://youtu.be/Uvjf8GSykW8",
 			"progress": 80
 		},
 		{
 			"title": "Simulate of Ethernet",
 			"date worked": "March, 2016",
 			"description": "Implemented TCP sockets and develop C program to simulate of an Ethernet with UNIX processes",
-			"image": "http://hitwater.github.io/images/5.jpg",
 			"github": "https://github.com/hitwater/Simulation_of_Ethernet",
 			"progress": 100
 		},
@@ -167,7 +166,7 @@ var bio = {
         "location": "Austin"
     },
     "welcome message": "I'm passionate about web design and web development and highly self-motivated and goal-oriented professional committed to pursuing a long-term career in software engineer. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 2+ years of hands on experience with HTML, CSS, JavaScript, MEAN stack, Python. Familiar with software development life cycle. Feel free to check out my Github repositories and demo projects. You can also find me on Linkedin and Twitter.",
-    "skills": ["Java","C++","Python", "SQL", "Javascript",  "HTML5", "CSS", "JQuery","Bootstrap","Knockout.js","Express.js","MongoDB","Angular.JS","Node.js","Linux", "Eclipse", "Sublime", "Git", "MATLAB"],
+    "skills": ["Java","Python", "Javascript", "MEAN Stack", "SQL","Git", "Linux"],
     "bio pic": "images/fry.jpg"	
 };
 bio.display = function(){
@@ -277,14 +276,14 @@ var polarData = [
     value: 10,
     color:"#F7464A",
     highlight: "#FF5A5E",
-    label: "HTML",
+    label: "Java",
     labelcolor: "red"
   },
   {
     value: 8,
     color:"#F06613",
     highlight: "#FF5A5E",
-    label: "CSS",
+    label: "Python",
     labelcolor: "orange"
   },
   {
@@ -305,7 +304,7 @@ var polarData = [
     value: 6,
     color: "#949FB1",
     highlight: "#A8B3C5",
-    label: "WordPress",
+    label: "SQL",
     labelcolor: "gray"
   },
   {
@@ -319,7 +318,7 @@ var polarData = [
     value: 5,
     color: "#4D5360",
     highlight: "#616774",
-    label: "Sass",
+    label: "Linux",
     labelcolor: "darker-gray"
   }
 
