@@ -59,14 +59,14 @@ var projects = {
 			"date worked": "December, 2016",
 			"description": "A Dealership Management system in Java to help customers and employees to finish the transactions.",
 			"github": "https://github.com/hitwater/Car-Dealership-Managment-Software",
-			"demo": "https://youtu.be/5AmEeVsn9jU"
+			"video": "https://youtu.be/5AmEeVsn9jU"
 		},
 		{
 			"title": "Rental Books Website",
 			"date worked": "March, 2016",
 			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
 			"github": "https://github.com/hitwater/Rental_Books",
-			"demo": "https://youtu.be/PPM8KJhob9A"
+			"video": "https://youtu.be/PPM8KJhob9A"
 		},
 		{
 			"title": "Arcade Game",
@@ -80,7 +80,7 @@ var projects = {
 			"date worked": "December, 2015",
 			"description": "Use Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
 			"github": "https://github.com/hitwater/Python-Interactive-Game",
-			"demo": "https://youtu.be/i5w6WTa5uVU"
+			"video": "https://youtu.be/i5w6WTa5uVU"
 		},		
 		{
 			"title": "Udacity-P6-Feed-Reader-Testing",
@@ -94,7 +94,7 @@ var projects = {
 			"date worked": "December, 2016",
 			"description": "Create an online Bookstore with Angular.JS and Google Firebase.",
 			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
-			"demo": "https://youtu.be/Uvjf8GSykW8"
+			"video": "https://youtu.be/Uvjf8GSykW8"
 		},
 		{
 			"title": "Simulate of Ethernet",
