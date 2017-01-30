@@ -219,18 +219,6 @@ var education = {
         "dates": "07-01-2009",
         "url": "http://en.hit.edu.cn/"
     }],
-    "onlineCourses": [{
-        "title": "NanoDegree",
-        "school": "Udacity",
-        "dates": "02.01.2016",
-        "url": "https://www.udacity.com/"
-    },{
-        "title": "Full Stack Web Development",
-        "school": "Coursera",
-        "dates": "10.01.2016",
-        "url": "https://www.coursera.org/"
-    }
-    ]
 };
 // Display education json info
 education.display = function(){
