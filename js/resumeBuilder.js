@@ -110,6 +110,8 @@ var projects = {
 };
 // Display project json info
 projects.display = function(){
+	var d3Div = new Array(projects.projects.length);
+	var progressDiv = new Array(projects.projects.length);
 	for (var project in projects.projects){
 
 			$("#projects").append(HTMLprojectStart);
@@ -123,9 +125,24 @@ projects.display = function(){
 				$(".project-entry:last").append(HTMLprojectDemo.replace("#", projects.projects[project]["demo"]));
 			if (projects.projects[project]["github"] != undefined )
 				$(".project-entry:last").append(HTMLprojectGithub.replace("#", projects.projects[project]["github"]));
+			if (projects.projects[project]["video"] != undefined )
+				$(".project-entry:last").append(HTMLprojectGithub.replace("#", projects.projects[project]["video"]));
+			// call d3 progress chart function
+			projects.progressChart(d3Div, progressDiv, project, 'div' + project, projects.projects[project]["progress"]);
+
 	}
 
 }
+// project d3 progress chart function
+projects.progressChart = function(d3Div, progressDiv, project, container, value) {
+
+	d3Div[project] = d3.select(document.getElementById(container));
+
+	progressDiv[project] = radialProgress(document.getElementById(container))
+        .diameter(150)
+        .value(value)
+        .render();
+};
 
 
 //Bio JSON
@@ -140,7 +157,7 @@ var bio = {
         "twitter handle": "@guiming2016",
         "location": "Austin"
     },
-	"welcome message": "I'm passionate about web design and web development and highly self-motivated and goal-oriented professional committed to pursuing a long-term career in software engineer. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 2+ years of hands on experience with HTML, CSS, JavaScript, MEAN stack, Python. Familiar with software development life cycle. Feel free to check out my Github repositories and demo projects. You can also find me on Linkedin and Twitter.",
+    "welcome message": "I'm passionate about web design and web development and highly self-motivated and goal-oriented professional committed to pursuing a long-term career in software engineer. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 2+ years of hands on experience with HTML, CSS, JavaScript, MEAN stack, Python. Familiar with software development life cycle. Feel free to check out my Github repositories and demo projects. You can also find me on Linkedin and Twitter.",
     "skills": ["Java","C++","Python", "SQL", "Javascript",  "HTML5", "CSS", "JQuery","Bootstrap","Knockout.js","Express.js","MongoDB","Angular.JS","Node.js","Linux", "Eclipse", "Sublime", "Git", "MATLAB"],
     "bio pic": "images/fry.jpg"	
 };
@@ -245,8 +262,78 @@ var skillsChartLabels = function(){
 	  $("#skills-list").append(skillHTML);
 	}
 }
+// chartjs library from: http://www.chartjs.org/docs/#polar-area-chart
+var polarData = [
+  {
+    value: 10,
+    color:"#F7464A",
+    highlight: "#FF5A5E",
+    label: "HTML",
+    labelcolor: "red"
+  },
+  {
+    value: 8,
+    color:"#F06613",
+    highlight: "#FF5A5E",
+    label: "CSS",
+    labelcolor: "orange"
+  },
+  {
+    value: 8,
+    color: "#46BFBD",
+    highlight: "#5AD3D1",
+    label: "Javascript",
+    labelcolor: "green"
+  },
+  {
+    value: 6,
+    color: "#FDB45C",
+    highlight: "#FFC870",
+    label: "MEAN stack",
+    labelcolor: "yellow"
+  },
+  {
+    value: 6,
+    color: "#949FB1",
+    highlight: "#A8B3C5",
+    label: "WordPress",
+    labelcolor: "gray"
+  },
+  {
+    value: 6,
+    color: "#23582b",
+    highlight: "#A8B3C5",
+    label: "Git",
+    labelcolor: "darker-green"
+  },
+  {
+    value: 5,
+    color: "#4D5360",
+    highlight: "#616774",
+    label: "Sass",
+    labelcolor: "darker-gray"
+  }
 
-
+  ];
+// Display a list of skill labels
+var skillsChartLabels = function(){
+	for (skill in polarData){
+	  var skillLabel = polarData[skill].label;
+	  var skillLabelColor = polarData[skill].labelcolor;
+	  var skillHTML = '<span class="label ' + skillLabelColor + '">' + skillLabel + '</span>';
+	  $("#skills-list").append(skillHTML);
+	}
+}
+// Call functions
+window.onload = function(){
+	var ctx = document.getElementById("skills-chart").getContext("2d");
+	window.myPolarArea = new Chart(ctx).PolarArea(polarData, {
+  		responsive:false
+	});
+	// Call skillsChartLabels function defined
+	skillsChartLabels();
+};
+// Call
 // Call bio, work, projects and education functions
 bio.display();
 work.display();
