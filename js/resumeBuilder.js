@@ -159,12 +159,9 @@ var bio = {
 	"last name": "  Huang",
     	"role": "Graduate Student Major in Software Engineering",
 	 "welcome message": "I'm passionate about web design and web development and highly self-motivated and goal-oriented professional committed to pursuing a long-term career in software engineer. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 2+ years of hands on experience with HTML, CSS, JavaScript, MEAN stack, Python. Familiar with software development life cycle. Feel free to check out my Github repositories and demo projects. You can also find me on Linkedin and Twitter.",
-	"bio pic": "https://lh3.googleusercontent.com/-SBN15tcmbC8/UkCdJGCGHOI/AAAAAAAAAVE/Gjs_4zrqmfY/w140-h140-p/LeiZ.JPG",
     	"contacts": {
         "mobile number": "979-402-6699",
         "email": "guiming2011@gmail.com",
-        "github username": "hitwater",
-        "twitter handle": "@guiming2016",
         "location": "Austin"
     },
     "skills": ["Java","Python", "Javascript", "MEAN Stack", "SQL","Git", "Linux"],
