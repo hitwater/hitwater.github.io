@@ -21,7 +21,7 @@ span {
 }
 
 .header-info h1{
-  font-size: 60px;
+  font-size: 160px;
   line-height:0.9;
   margin:0;
   display:inline;
@@ -41,7 +41,7 @@ span {
   padding: 5px 10px;
 }
 .first-name{
-  font-weight:300;
+  font-weight:700;
 }
 .last-name{
   font-weight:300;
@@ -151,6 +151,9 @@ span.entry-location{
   display:inline-block;
   margin:0;
 }
+.project-entry {
+  height: 350px;
+}
 .project-entry .entry-date{
   color:#09c;
 }
@@ -174,6 +177,7 @@ span.entry-location{
 .project-entry .btn-info:active{
   background: #14A7D8;
 }
+
 /* Languages and Maps */
 .progress{
   border-radius: 0;
@@ -268,7 +272,7 @@ span.entry-location{
     font-size: 31px;
   }
   .header-info .welcome-message{
-    width: 550px;
+    width: 500px;
     margin: 0 auto;
   }
   #topContacts{
@@ -326,10 +330,10 @@ span.entry-location{
     text-align: left;
   }
   .header-info h1{
-    font-size: 70px;
+    font-size: 160px;
   } 
   .header-info h2{
-    font-size: 25px;
+    font-size: 38px;
   }
   .header-info .welcome-message{
     width: 100%;
