@@ -105,7 +105,7 @@ var projects = {
 			"progress": 100
 		},		
 		{
-			"title": "Udacity-P5-Website Optimization",
+			"title": "Website Optimization",
 			"date worked": "April, 2016",
 			"description": "Optimized an inefficient web application's JavaScript, CSS and assets delivery",
 			"github": "https://github.com/hitwater/Udacity-P4-Website-Optimization",
@@ -269,7 +269,7 @@ var polarData = [
     color:"#F06613",
     highlight: "#FF5A5E",
     label: "C++",
-    labelcolor: "dark-yellow"
+    labelcolor: "gray"
   },
   {
     value: 8,
@@ -304,7 +304,7 @@ var polarData = [
     color: "#949FB1",
     highlight: "#A8B3C5",
     label: "IntelliJ",
-    labelcolor: "dark-orange"
+    labelcolor: "green"
   },
 	
   {
