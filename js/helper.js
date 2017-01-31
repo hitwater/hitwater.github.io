@@ -26,6 +26,7 @@ var HTMLprojectDescription = "<p>%data%</p>";
 var HTMLprojectImage = "<img src='%data%'>";
 var HTMLprojectDemo = "<a href='#' class='btn btn-info' role='button'>Demo</a>";
 var HTMLprojectGithub = "<a href='#' class='btn btn-info' role='button'>Github</a>";
+var HTMLprojectVideo = "<a href='#' class='btn btn-info' role='button'>Video</a>";
 
 var HTMLschoolStart = "<div class='education-entry'></div>";
 var HTMLschoolName = "<span class='entry-name'><a href='#'>%data%</a></span>";
