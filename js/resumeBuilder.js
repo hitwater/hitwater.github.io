@@ -21,6 +21,13 @@ var work = {
         "location": "College Station",
         "dates": "Aug. 2011-May 2012",
         "description": "Create MATLAB code to investigated the coupling between vibration and acoustic of solid plate and membrane."
+    },  
+    {
+        "employer": "Harbin Institute of Technology",
+        "title": "Research Assistant",
+        "location": "Harbin",
+        "dates": "Aug. 2009-May 2011",
+        "description": "Developed C++ code to create user interface, control motion of motor, and generate data for A/D converter."
     }]
 	
 };
@@ -49,6 +56,14 @@ var projects = {
 			"progress": 100
 		},
 		{
+			"title": "Car Dealership Managment",
+			"date worked": "December, 2016",
+			"description": "A Dealership Management system in Java to help customers and employees to finish the transactions.",
+			"github": "https://github.com/hitwater/Car-Dealership-Managment-Software",
+			"video": "https://youtu.be/5AmEeVsn9jU",
+			"progress": 100
+		},
+		{
 			"title": "Restaurant Website",
 			"date worked": "April, 2016",
 			"description": "An interactive website with AngularJS, Node.js, Express.js, and MongoDB.",
@@ -57,19 +72,19 @@ var projects = {
 			
 		},
 		{
-			"title": "Car Dealership Managment",
+			"title": "Texas-State-Online-Bookstore",
 			"date worked": "December, 2016",
-			"description": "A Dealership Management system in Java to help customers and employees to finish the transactions.",
-			"github": "https://github.com/hitwater/Car-Dealership-Managment-Software",
-			"demo": "https://youtu.be/5AmEeVsn9jU",
-			"progress": 100
+			"description": "Create an online Bookstore with Angular.JS and Google Firebase.",
+			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
+			"video": "https://youtu.be/Uvjf8GSykW8",
+			"progress": 80
 		},
 		{
 			"title": "Rental Books Website",
 			"date worked": "March, 2016",
 			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
 			"github": "https://github.com/hitwater/Rental_Books",
-			"demo": "https://youtu.be/PPM8KJhob9A",
+			"vedio": "https://youtu.be/PPM8KJhob9A",
 			"progress": 90
 		},
 		{
@@ -85,24 +100,15 @@ var projects = {
 			"date worked": "December, 2015",
 			"description": "Use Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
 			"github": "https://github.com/hitwater/Python-Interactive-Game",
-			"demo": "https://youtu.be/i5w6WTa5uVU",
+			"video": "https://youtu.be/i5w6WTa5uVU",
 			"progress": 100
 		},		
 		{
-			"title": "Udacity-P6-Feed-Reader-Testing",
+			"title": "Udacity-P5-Website Optimization",
 			"date worked": "April, 2016",
-			"description": "This is a Jasmine test for a given web-based application that reads RSS feeds.",
-			"github": "https://github.com/hitwater/Udacity-P6-Feed-Reader-Testing",
-			"demo": "http://hitwater.github.io/Udacity-P6-Feed-Reader-Testing/",
+			"description": "Optimized an inefficient web application's JavaScript, CSS and assets delivery",
+			"github": "https://github.com/hitwater/Udacity-P4-Website-Optimization",
 			"progress": 100
-		},
-		{
-			"title": "Texas-State-Online-Bookstore",
-			"date worked": "December, 2016",
-			"description": "Create an online Bookstore with Angular.JS and Google Firebase.",
-			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
-			"demo": "https://youtu.be/Uvjf8GSykW8",
-			"progress": 80
 		},
 		{
 			"title": "Simulate of Ethernet",
@@ -134,7 +140,7 @@ projects.display = function(){
 			if (projects.projects[project]["github"] != undefined )
 				$(".project-entry:last").append(HTMLprojectGithub.replace("#", projects.projects[project]["github"]));
 			if (projects.projects[project]["video"] != undefined )
-				$(".project-entry:last").append(HTMLprojectGithub.replace("#", projects.projects[project]["video"]));
+				$(".project-entry:last").append(HTMLprojectvideo.replace("#", projects.projects[project]["video"]));
 			// call d3 progress chart function
 			projects.progressChart(d3Div, progressDiv, project, 'div' + project, projects.projects[project]["progress"]);
 
@@ -234,16 +240,7 @@ education.display = function(){
 			$(".education-entry:last").append(HTMLschoolMajor.replace("%data%", education.schools[school]["majors"][major]));
 		}
 	}
-	$("#education").append(HTMLonlineClasses);
-	// Display online courses
-	for (var onlineCourse in education.onlineCourses){	
-		var num = education.schools.length + parseInt(onlineCourse);
-		$("#education").append(HTMLschoolStart);
-		$(".education-entry:last").append(HTMLonlineDates.replace("%data%", education.onlineCourses[onlineCourse]["dates"]))
-									.append(HTMLonlineSchool.replace("%data%", education.onlineCourses[onlineCourse]["school"]))
-									.append(HTMLonlineTitle.replace("%data%", education.onlineCourses[onlineCourse]["title"]))
-									.append(HTMLonlineURL.replace("%data%", education.onlineCourses[onlineCourse]["url"]));
-	}
+
 }
 //Map
 $("#mapDiv").append(googleMap);
