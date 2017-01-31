@@ -269,7 +269,7 @@ var polarData = [
     color:"#F06613",
     highlight: "#FF5A5E",
     label: "C++",
-    labelcolor: "Blue"
+    labelcolor: "dark-yellow"
   },
   {
     value: 8,
@@ -304,7 +304,7 @@ var polarData = [
     color: "#949FB1",
     highlight: "#A8B3C5",
     label: "IntelliJ",
-    labelcolor: "dark-red"
+    labelcolor: "dark-orange"
   },
 	
   {
