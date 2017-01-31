@@ -84,7 +84,7 @@ var projects = {
 			"date worked": "March, 2016",
 			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
 			"github": "https://github.com/hitwater/Rental_Books",
-			"vedio": "https://youtu.be/PPM8KJhob9A",
+			"video": "https://youtu.be/PPM8KJhob9A",
 			"progress": 90
 		},
 		{
@@ -140,7 +140,7 @@ projects.display = function(){
 			if (projects.projects[project]["github"] != undefined )
 				$(".project-entry:last").append(HTMLprojectGithub.replace("#", projects.projects[project]["github"]));
 			if (projects.projects[project]["video"] != undefined )
-				$(".project-entry:last").append(HTMLprojectvideo.replace("#", projects.projects[project]["video"]));
+				$(".project-entry:last").append(HTMLprojectVideo.replace("#", projects.projects[project]["video"]));
 			// call d3 progress chart function
 			projects.progressChart(d3Div, progressDiv, project, 'div' + project, projects.projects[project]["progress"]);
 
