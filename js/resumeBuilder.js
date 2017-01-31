@@ -51,16 +51,17 @@ var projects = {
 			"title": "Neighborhood Map",
 			"date worked": "May, 2016",
 			"description": "Neighborhood Map project for Udacity Front-end Web Development Nanodegree",
-			"github": "https://github.com/hitwater/Udacity-P5-Neighborhoodmap",
 			"demo": "http://hitwater.github.io//Udacity-P5-Neighborhoodmap/",
+			"github": "https://github.com/hitwater/Udacity-P5-Neighborhoodmap",
+
 			"progress": 100
 		},
 		{
 			"title": "Car Dealership Managment",
 			"date worked": "December, 2016",
 			"description": "A Dealership Management system in Java to help customers and employees to finish the transactions.",
-			"github": "https://github.com/hitwater/Car-Dealership-Managment-Software",
 			"video": "https://youtu.be/5AmEeVsn9jU",
+			"github": "https://github.com/hitwater/Car-Dealership-Managment-Software",
 			"progress": 100
 		},
 		{
@@ -75,32 +76,32 @@ var projects = {
 			"title": "Texas-State-Online-Bookstore",
 			"date worked": "December, 2016",
 			"description": "Create an online Bookstore with Angular.JS and Google Firebase.",
-			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
 			"video": "https://youtu.be/Uvjf8GSykW8",
+			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
 			"progress": 80
 		},
 		{
 			"title": "Rental Books Website",
 			"date worked": "March, 2016",
 			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
-			"github": "https://github.com/hitwater/Rental_Books",
 			"video": "https://youtu.be/PPM8KJhob9A",
+			"github": "https://github.com/hitwater/Rental_Books",
 			"progress": 90
 		},
 		{
 			"title": "Arcade Game",
 			"date worked": "April, 2016",
 			"description": "Classic arcade game clone project for Udacity Front-end Web Development Nanodegree",
-			"github": "https://github.com/hitwater/Udacity-P3-Arcade-Game",
 			"demo": "http://hitwater.github.io//Udacity-P3-Arcade-Game/",
+			"github": "https://github.com/hitwater/Udacity-P3-Arcade-Game",
 			"progress": 100
 		},
 		{
 			"title": "Python Interactive Game",
 			"date worked": "December, 2015",
 			"description": "Use Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
-			"github": "https://github.com/hitwater/Python-Interactive-Game",
 			"video": "https://youtu.be/i5w6WTa5uVU",
+			"github": "https://github.com/hitwater/Python-Interactive-Game",
 			"progress": 100
 		},		
 		{
@@ -137,10 +138,10 @@ projects.display = function(){
 			// display demo or github json info if they exisit
 			if (projects.projects[project]["demo"] != undefined )
 				$(".project-entry:last").append(HTMLprojectDemo.replace("#", projects.projects[project]["demo"]));
-			if (projects.projects[project]["github"] != undefined )
-				$(".project-entry:last").append(HTMLprojectGithub.replace("#", projects.projects[project]["github"]));
 			if (projects.projects[project]["video"] != undefined )
 				$(".project-entry:last").append(HTMLprojectVideo.replace("#", projects.projects[project]["video"]));
+			if (projects.projects[project]["github"] != undefined )
+				$(".project-entry:last").append(HTMLprojectGithub.replace("#", projects.projects[project]["github"]));
 			// call d3 progress chart function
 			projects.progressChart(d3Div, progressDiv, project, 'div' + project, projects.projects[project]["progress"]);
 
@@ -172,7 +173,7 @@ var bio = {
         "twitter handle": "@guiming2016",
         "location": "Austin"
     },
-    "skills": ["Java","Python", "Javascript", "MEAN Stack", "SQL","Git", "Linux"],
+    "skills": ["Java","C++","Python", "Javascript", "SQL","MEAN Stack","IntelliJ", "Git", "Linux"],
 };
 bio.display = function(){
 	var formattedFName = HTMLheaderFName.replace("%data%", bio["first name"].toUpperCase());
@@ -267,6 +268,13 @@ var polarData = [
     value: 8,
     color:"#F06613",
     highlight: "#FF5A5E",
+    label: "C++",
+    labelcolor: "Blue"
+  },
+  {
+    value: 8,
+    color:"#F06613",
+    highlight: "#FF5A5E",
     label: "Python",
     labelcolor: "orange"
   },
@@ -276,6 +284,13 @@ var polarData = [
     highlight: "#5AD3D1",
     label: "Javascript",
     labelcolor: "green"
+  },
+  {
+    value: 8,
+    color: "#46BFBD",
+    highlight: "#5AD3D1",
+    label: "SQL",
+    labelcolor: "gray"
   },
   {
     value: 6,
@@ -288,9 +303,10 @@ var polarData = [
     value: 6,
     color: "#949FB1",
     highlight: "#A8B3C5",
-    label: "SQL",
-    labelcolor: "gray"
+    label: "IntelliJ",
+    labelcolor: "dark-red"
   },
+	
   {
     value: 6,
     color: "#23582b",
