@@ -164,7 +164,7 @@ projects.progressChart = function(d3Div, progressDiv, project, container, value)
 var bio = {
 	"first name": "Guiming  ",
 	"last name": "  Huang",
-    	"role": "Graduate Student Major in Software Engineering",
+    	"role": "Graduate Student Major in Computer Science",
 	 "welcome message": "Highly self-motivated and goal-oriented professional committed to pursuing a position in Software Engineer Intern. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 3+ years of hands on experience with C++, Java, Python, JavaScript. Familiar with software development life cycle.",
     	"contacts": {
         "mobile number": "979-402-6699",
