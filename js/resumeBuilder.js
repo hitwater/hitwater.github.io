@@ -1,20 +1,22 @@
 
 //Work JSON 
 var work = {
-    "jobs": [{
+    "jobs": [    
+    {
+        "employer": "Tokyo Electron",
+        "title": "Software Engineer Intern",
+        "location": "Austin",
+        "dates": "May. 2017-Aug. 2017",
+        "description": "As a engineer, I was focusing on devloping Python and Matlab code for image processing and data analytics."
+    }, 
+    {
         "employer": "Texas State University",
         "title": "Graduate Assistant",
         "location": "San Marcos",
         "dates": "May 2016-Present",
-        "description": "My current study is focusing on web development, object oriented programming and software testing. "
+        "description": "My current study is focusing on web development, object oriented programming and software testing."
     },
-    {
-        "employer": "BOA Marine Services Inc.",
-        "title": "Marine Engineer",
-        "location": "Houston",
-        "dates": "May. 2013-Aug. 2013",
-        "description": "As a engineer, I was focusing on devloping JavaScript,Python, and VB scripting code."
-    },  
+ 
     {
         "employer": "Texas A&M University ",
         "title": "Lab Assistant",
@@ -60,7 +62,7 @@ var projects = {
 			"title": "Car Dealership Managment",
 			"date worked": "December, 2016",
 			"description": "A Dealership Management system in Java to help customers and employees to finish the transactions.",
-			"video": "https://youtu.be/5AmEeVsn9jU",
+			"video": "https://youtu.be/4sZCm70FwZA",
 			"github": "https://github.com/hitwater/Car-Dealership-Managment-Software",
 			"progress": 100
 		},
@@ -76,7 +78,7 @@ var projects = {
 			"title": "Texas-State-Online-Bookstore",
 			"date worked": "December, 2016",
 			"description": "Create an online Bookstore with Angular.JS and Google Firebase.",
-			"video": "https://youtu.be/Uvjf8GSykW8",
+			"video": "https://youtu.be/yvPkUIwMEQI",
 			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
 			"progress": 80
 		},
@@ -84,7 +86,7 @@ var projects = {
 			"title": "Rental Books Website",
 			"date worked": "March, 2016",
 			"description": "A rental books website for students to rent textbooks using HTML5, JavaScript , PHP and MySQL",			
-			"video": "https://youtu.be/PPM8KJhob9A",
+			"video": "https://youtu.be/uee8MFr05ks",
 			"github": "https://github.com/hitwater/Rental_Books",
 			"progress": 90
 		},
@@ -100,7 +102,7 @@ var projects = {
 			"title": "Python Interactive Game",
 			"date worked": "December, 2015",
 			"description": "Use Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
-			"video": "https://youtu.be/i5w6WTa5uVU",
+			"video": "https://youtu.be/LH7BGrw5N9o",
 			"github": "https://github.com/hitwater/Python-Interactive-Game",
 			"progress": 100
 		},		
@@ -165,7 +167,7 @@ var bio = {
 	"first name": "Guiming  ",
 	"last name": "  Huang",
     	"role": "Graduate Student Major in Computer Science",
-	 "welcome message": "Highly self-motivated and goal-oriented professional committed to pursuing a position in Software Engineer Intern. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 3+ years of hands on experience with C++, Java, Python, JavaScript. Familiar with software development life cycle.",
+	 "welcome message": "Highly self-motivated and goal-oriented professional committed to pursuing a position in Software Engineer. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 3+ years of hands on experience with C++, Java, Python, JavaScript. Familiar with software development life cycle.",
     	"contacts": {
         "mobile number": "979-402-6699",
         "email": "guiming2011@gmail.com",
@@ -210,7 +212,7 @@ var education = {
         "name": "Texas State University",
         "location": "San Marcos",
         "degree": "Master degree",
-        "majors": ["Software Engineering"],
+        "majors": ["Computer Science"],
         "dates": "12-15-2017",
         "url": "http://www.txstate.edu/"
     },{
