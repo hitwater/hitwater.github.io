@@ -67,10 +67,11 @@ var projects = {
 			"progress": 100
 		},
 		{
-			"title": "Restaurant Website",
-			"date worked": "April, 2016",
-			"description": "An interactive website with AngularJS, Node.js, Express.js, and MongoDB.",
-			"github": "https://github.com/hitwater/coursera-full-stack-web-development",
+			"title": "Keyword Search Engine",
+			"date worked": "April, 2017",
+			"description": "Implement a keyword search interface with AngularJS, Elasticsearch and Bonsai for local keyword search",
+			"demo" : "https://hitwater.github.io/Keyword_Local_Search/",
+			"github": "https://github.com/hitwater/Keyword_Local_Search",
 			"progress": 80
 			
 		},
