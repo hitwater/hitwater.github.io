@@ -214,7 +214,7 @@ var education = {
         "location": "San Marcos",
         "degree": "Master degree",
         "majors": ["Computer Science"],
-        "dates": "12-15-2017",
+        "dates": "05-15-2018",
         "url": "http://www.txstate.edu/"
     },{
         "name": "Texas A&M University",
