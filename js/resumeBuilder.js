@@ -214,21 +214,21 @@ var education = {
         "location": "San Marcos",
         "degree": "Master degree",
         "majors": ["Computer Science"],
-        "Expected Graduation date": "05-15-2018",
+        "dates": "05-15-2018",
         "url": "http://www.txstate.edu/"
     },{
         "name": "Texas A&M University",
         "location": "College Station",
         "degree": "Master degree",
         "majors": ["Ocean Engineering"],
-        "Graduation date": "12-12-2013",
+        "dates": "12-12-2013",
         "url": "https://www.tamu.edu/"
     }, {
         "name": "Harbin Insititute of Technology",
         "location": "Harbin",
         "degree": "Bachelor degree",
         "majors": ["Mechanical Engineering"],
-        "Graduation date": "07-01-2009",
+        "dates": "07-01-2009",
         "url": "http://en.hit.edu.cn/"
     }],
 };
