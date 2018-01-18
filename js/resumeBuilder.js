@@ -168,7 +168,7 @@ var bio = {
 	"first name": "Guiming  ",
 	"last name": "  Huang",
     	"role": "Graduate Student Major in Computer Science",
-	 "welcome message": "Highly self-motivated and goal-oriented professional committed to pursuing a position in Software Engineer. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 3+ years of hands on experience with C++, Java, Python, JavaScript. Familiar with software development life cycle.",
+	 "welcome message": "Highly self-motivated and goal-oriented professional committed to pursuing a position in Software Engineer. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 2+ years of hands on experience with C++, Java, Python, JavaScript. Familiar with software development life cycle.",
     	"contacts": {
         "mobile number": "979-402-6699",
         "email": "guiming2011@gmail.com",
@@ -214,21 +214,21 @@ var education = {
         "location": "San Marcos",
         "degree": "Master degree",
         "majors": ["Computer Science"],
-        "dates": "05-15-2018",
+        "Expected Graduation date": "05-15-2018",
         "url": "http://www.txstate.edu/"
     },{
         "name": "Texas A&M University",
         "location": "College Station",
         "degree": "Master degree",
         "majors": ["Ocean Engineering"],
-        "dates": "12-12-2013",
+        "Graduation date": "12-12-2013",
         "url": "https://www.tamu.edu/"
     }, {
         "name": "Harbin Insititute of Technology",
         "location": "Harbin",
         "degree": "Bachelor degree",
         "majors": ["Mechanical Engineering"],
-        "dates": "07-01-2009",
+        "Graduation date": "07-01-2009",
         "url": "http://en.hit.edu.cn/"
     }],
 };
