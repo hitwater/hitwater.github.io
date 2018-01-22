@@ -22,7 +22,7 @@ var work = {
         "title": "Lab Assistant",
         "location": "College Station",
         "dates": "Aug. 2011-May 2012",
-        "description": "Created MATLAB code to investigated the coupling between vibration and acoustic of solid plate and membrane."
+        "description": "Created MATLAB code to investigate the coupling between vibration and acoustic of solid plate and membrane."
     },  
     {
         "employer": "Harbin Institute of Technology",
@@ -69,7 +69,7 @@ var projects = {
 		{
 			"title": "Keyword Search Engine",
 			"date worked": "April, 2017",
-			"description": "Implemented a keyword search interface with AngularJS, Elasticsearch and Bonsai for local keyword search",
+			"description": "Implement a keyword search interface with AngularJS, Elasticsearch and Bonsai for local keyword search",
 			"demo" : "https://hitwater.github.io/Keyword_Local_Search/",
 			"github": "https://github.com/hitwater/Keyword_Local_Search",
 			"progress": 80
@@ -78,7 +78,7 @@ var projects = {
 		{
 			"title": "Texas-State-Online-Bookstore",
 			"date worked": "December, 2016",
-			"description": "Created an online Bookstore with Angular.JS and Google Firebase.",
+			"description": "Create an online Bookstore with Angular.JS and Google Firebase.",
 			"video": "https://youtu.be/yvPkUIwMEQI",
 			"github": "https://github.com/hitwater/Texas-State-Online-Bookstore",
 			"progress": 80
@@ -102,7 +102,7 @@ var projects = {
 		{
 			"title": "Python Interactive Game",
 			"date worked": "December, 2015",
-			"description": "Used Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
+			"description": "Use Python code to create interactive game such as Ping-Pong, Blackjack, and Asteroids",
 			"video": "https://youtu.be/LH7BGrw5N9o",
 			"github": "https://github.com/hitwater/Python-Interactive-Game",
 			"progress": 100
@@ -110,14 +110,14 @@ var projects = {
 		{
 			"title": "Website Optimization",
 			"date worked": "April, 2016",
-			"description": "Optimized an inefficient web application's JavaScript, CSS and assets delivery",
+			"description": "Optimize an inefficient web application's JavaScript, CSS and assets delivery",
 			"github": "https://github.com/hitwater/Udacity-P4-Website-Optimization",
 			"progress": 100
 		},
 		{
 			"title": "Simulate of Ethernet",
 			"date worked": "March, 2016",
-			"description": "Implemented TCP sockets and develop C program to simulate of an Ethernet with UNIX processes",
+			"description": "Implement TCP sockets and develop C program to simulate of an Ethernet with UNIX processes",
 			"github": "https://github.com/hitwater/Simulation_of_Ethernet",
 			"progress": 100
 		},
@@ -168,7 +168,7 @@ var bio = {
 	"first name": "Guiming  ",
 	"last name": "  Huang",
     	"role": "Graduate Student Major in Computer Science",
-	 "welcome message": "Highly self-motivated and goal-oriented professional committed to pursuing a position in Software Engineer. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 2+ years of hands on experience with Java, JavaScript, C++, and Python. Familiar with software development life cycle.",
+	 "welcome message": "Highly self-motivated and goal-oriented professional committed to pursuing a position in Software Engineer. Skilled analytical problem-solver with the ability to quickly learn new technologies. Ability to work well with people at all levels. 2+ years of hands-on experience with Java, JavaScript, C++, and Python. Familiar with software development life cycle.",
     	"contacts": {
         "mobile number": "979-402-6699",
         "email": "guiming2011@gmail.com",
